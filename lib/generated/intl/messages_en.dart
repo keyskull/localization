@@ -23,25 +23,36 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "about": MessageLookupByLibrary.simpleMessage("About"),
-        "about_me": MessageLookupByLibrary.simpleMessage("About Me"),
         "about_the_webpages":
             MessageLookupByLibrary.simpleMessage("About the Webpages"),
+        "aboutpage_description": MessageLookupByLibrary.simpleMessage(
+            "Artalaxies is a decentralized marketplace that focuses on providing anonomyous art designers a platform to produce and protect their NFT derivatives with the use of web 3.0 tech stack and e-commerce system. The platform allows for buyers to purchase physical products that have the nft content embedded, without the artist loosing ownership of the NFT itself. \n\nArtalaxies is a platform where artists can exhibit their NFT’s and directly communicate with manufactures to sell their products. \nThe platform has a marketplace where buyers can purchase the designers’ NFT license and then purchase shirts, mugs, sweaters, and other merchandises to sell them in real life.\n\nThe benefits of having a e-commerce system backed up by Web3 is that we are able to trace NFTs back to the original owner and that the all transactions are transparent and traceable. For example, if a customer is trying to return a product, the merchant is able to validate if the product came from his shop  to see if it is real or fake. Similarly, the customer can check where the NFT came from to see if it was from his favorite artist or it is coming from a phony. \nArtalaxies is a platform where artists can exhibit their NFT’s and directly communicate with manufactures to sell their products. \n\nThe platform has a marketplace where buyers can buy the designers’ NFT license and then purchase shirts, mugs, sweaters, and other merchendize to sell them in real life.\n\nOur team consisted of students of UC Berkeley, and a CEO of a scientific research organization, all with a background in computer science. \nTo build this platform, we planned it out into 4 different stages."),
         "blog": MessageLookupByLibrary.simpleMessage("Blog"),
         "blog_description": MessageLookupByLibrary.simpleMessage(""),
+        "community": MessageLookupByLibrary.simpleMessage("Community"),
+        "community_text": MessageLookupByLibrary.simpleMessage("Coming Soon"),
         "contact_information":
             MessageLookupByLibrary.simpleMessage("Contact Information"),
         "contact_me": MessageLookupByLibrary.simpleMessage("Contact Me"),
         "cookie_policy": MessageLookupByLibrary.simpleMessage("Cookie Policy"),
         "disclaimer": MessageLookupByLibrary.simpleMessage("Disclaimer"),
+        "explore": MessageLookupByLibrary.simpleMessage("Explore"),
         "header_description": MessageLookupByLibrary.simpleMessage(
-            "Welcome to Jialin\'s Portfolio.\n\nI\'m Jialin Li, a person who passionate about life-long learning and sharing knowledge with my understanding.\nExperienced in Back-end engineer and Full-stack developer position; bestowed Bachelor\'s degree in Computer Science; studying the Data Science program, and working on some projects related. I am looking for new opportunities to contribute my service systems development and design experiences as a software engineer with my passion and seeking a good approach to leverage my skill in Data Science.\n\nFeel free to chat with me about anything you\'re interested in.\n\nYou can contact me via the contact button.\n"),
+            "\nNFT Derivative MarketPlace \nDiscover Licenses and Merchandise\n"),
         "home_page_name":
-            MessageLookupByLibrary.simpleMessage("Jialin Li\'s Portfolio"),
+            MessageLookupByLibrary.simpleMessage("Artalaxies Alpha"),
         "legal": MessageLookupByLibrary.simpleMessage("Legal"),
+        "license": MessageLookupByLibrary.simpleMessage("license"),
         "license_announcement": MessageLookupByLibrary.simpleMessage(
-            "Jialin Li\'s Portfolio © 2021 by Jialin Li is licensed under Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/"),
+            "© 2021 Artalaxies\nAll Rights Reserved."),
         "life_history": MessageLookupByLibrary.simpleMessage("Life History"),
         "login": MessageLookupByLibrary.simpleMessage("login"),
+        "marketplace": MessageLookupByLibrary.simpleMessage("Marketplace"),
+        "merchantdetail":
+            MessageLookupByLibrary.simpleMessage("Merchant Detail"),
+        "merchants": MessageLookupByLibrary.simpleMessage("Merchants"),
+        "merchantsapplication":
+            MessageLookupByLibrary.simpleMessage("Merchant Application"),
         "more": MessageLookupByLibrary.simpleMessage("More"),
         "my_github": MessageLookupByLibrary.simpleMessage("My Github"),
         "my_linkedin_profile":
@@ -50,16 +61,19 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Newest Articles"),
         "privacy_policy":
             MessageLookupByLibrary.simpleMessage("Privacy Policy"),
+        "product_detail":
+            MessageLookupByLibrary.simpleMessage("Product Detail"),
         "quick_access": MessageLookupByLibrary.simpleMessage("Quick Access"),
         "recent_projects":
             MessageLookupByLibrary.simpleMessage("Recent Projects"),
         "service_statuses":
             MessageLookupByLibrary.simpleMessage("Service Statuses"),
         "services": MessageLookupByLibrary.simpleMessage("Services"),
+        "show_more": MessageLookupByLibrary.simpleMessage("Show More"),
         "status": MessageLookupByLibrary.simpleMessage("Status"),
         "terms_of_service":
             MessageLookupByLibrary.simpleMessage("Terms of Service"),
-        "title": MessageLookupByLibrary.simpleMessage("Jialin Li\'s Portfolio"),
+        "title": MessageLookupByLibrary.simpleMessage("Artalaxies Alpha"),
         "website": MessageLookupByLibrary.simpleMessage("Website"),
         "website_status": MessageLookupByLibrary.simpleMessage("Website Status")
       };

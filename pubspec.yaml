@@ -1,6 +1,6 @@
 name: localization
 description: A localization package for numflurry.
-version: 0.0.1+1
+version: 0.0.1+2
 homepage: https://cullen.ml
 publish_to: https://artalaxies.jfrog.io/artifactory/api/pub/artalxies-pub
 
